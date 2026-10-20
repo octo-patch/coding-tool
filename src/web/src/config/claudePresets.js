@@ -56,11 +56,11 @@ export const claudePresets = [
     name: 'MiniMax (CN)',
     category: 'cn_official',
     websiteUrl: 'https://platform.minimaxi.com',
-    baseUrl: 'https://api.minimaxi.com/anthropic',
+    baseUrl: 'https://api.minimax.cn/anthropic',
     env: {
-      ANTHROPIC_MODEL: 'MiniMax-M3',
-      ANTHROPIC_DEFAULT_HAIKU_MODEL: 'MiniMax-M2.7',
-      ANTHROPIC_DEFAULT_SONNET_MODEL: 'MiniMax-M3',
+      ANTHROPIC_MODEL: 'MiniMax-M3.1-Flash',
+      ANTHROPIC_DEFAULT_HAIKU_MODEL: 'MiniMax-M3.1-Flash',
+      ANTHROPIC_DEFAULT_SONNET_MODEL: 'MiniMax-M3.1-Flash',
       ANTHROPIC_DEFAULT_OPUS_MODEL: 'MiniMax-M3'
     }
   },
@@ -71,9 +71,9 @@ export const claudePresets = [
     websiteUrl: 'https://platform.minimax.io',
     baseUrl: 'https://api.minimax.io/anthropic',
     env: {
-      ANTHROPIC_MODEL: 'MiniMax-M3',
-      ANTHROPIC_DEFAULT_HAIKU_MODEL: 'MiniMax-M2.7',
-      ANTHROPIC_DEFAULT_SONNET_MODEL: 'MiniMax-M3',
+      ANTHROPIC_MODEL: 'MiniMax-M3.1-Flash',
+      ANTHROPIC_DEFAULT_HAIKU_MODEL: 'MiniMax-M3.1-Flash',
+      ANTHROPIC_DEFAULT_SONNET_MODEL: 'MiniMax-M3.1-Flash',
       ANTHROPIC_DEFAULT_OPUS_MODEL: 'MiniMax-M3'
     }
   },
